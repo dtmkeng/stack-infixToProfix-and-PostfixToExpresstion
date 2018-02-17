@@ -84,6 +84,7 @@ int main()
     scanf(" %s",postfix);
     printf("Postfix : %s\n",postfix);
     printf("value is : %d \n",evaluatePostfix(postfix));
+    
     getchar();
 	return 0;
 }

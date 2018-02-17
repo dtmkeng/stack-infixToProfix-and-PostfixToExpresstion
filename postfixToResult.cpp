@@ -83,8 +83,7 @@ int main()
     printf("Enter the postfix value : ");
     scanf(" %s",postfix);
     printf("Postfix : %s\n",postfix);
-    printf("value is : %d \n",evaluatePostfix(postfix));
-    
+    printf("value is : %d",evaluatePostfix(postfix));
     getchar();
 	return 0;
 }

@@ -81,8 +81,8 @@ int main()
 	// char postfix[] = "231*+9-";
     char postfix[100];
     printf("Enter the postfix value : ");
-    fgets(postfix, 100, stdin);
-    printf("Postfix : %s",postfix);
+    scanf(" %s",postfix);
+    printf("Postfix : %s\n",postfix);
     printf("value is : %d \n",evaluatePostfix(postfix));
     getchar();
 	return 0;

@@ -72,7 +72,8 @@ int evaluatePostfix(char* exp)
 			}
 		}
 	}
-	return pop(stack);
+    printf(" %d" ,pop(stack));
+	//return pop(stack);
 }
 
 
@@ -83,7 +84,8 @@ int main()
     printf("Enter the postfix value : ");
     scanf(" %s",postfix);
     printf("Postfix : %s\n",postfix);
-    printf("value is : %d",evaluatePostfix(postfix));
+    // printf("value is : %d ",evaluatePostfix(postfix));
+    evaluatePostfix(postfix);
     getchar();
 	return 0;
 }

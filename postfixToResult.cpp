@@ -84,5 +84,6 @@ int main()
     fgets(postfix, 100, stdin);
     printf("Postfix : %s",postfix);
     printf("value is : %d \n",evaluatePostfix(postfix));
+    getchar();
 	return 0;
 }

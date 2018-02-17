@@ -117,6 +117,7 @@ int main()
     printf("intfix : %s ",infix);
     printf("Postfix : ");
 	infixToPostfix(infix);
+    getchar();
     // printf("\n");
 	return 0;
 }

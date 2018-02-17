@@ -110,10 +110,13 @@ int infixToPostfix(char* exp)
 
 int main()
 {
-	char infix[] = "3+b*(5^d-e)^(10+g*h)-1.4";
-    printf("intfix : %s \n",infix);
+	// char infix[] = "3+b*(5^d-e)^(10+g*h)-1.4";
+    char infix[100];
+    printf("Enter the infix to convert to postfix: ");
+    fgets(infix, 100, stdin);
+    printf("intfix : %s ",infix);
     printf("Postfix : ");
 	infixToPostfix(infix);
-    printf("\n");
+    // printf("\n");
 	return 0;
 }
